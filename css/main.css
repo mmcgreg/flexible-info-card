@@ -1,9 +1,24 @@
 html {
   box-sizing: border-box;
+  background-color: #ccc;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic" rel="stylesheet">
+body {
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+
+  margin: 0;
+}
+
+section img {
+  width: 5rem;
+}
